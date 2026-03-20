@@ -8,10 +8,10 @@ function App(){
         <>
         <div>
         <h1>Parent count:{count}</h1>
-        <button onClick={()=>setCount(count+1)}>Increment</button>
+        <button onClick={()=>setCount(count+1)}>Increment1</button>
         </div>
 
-        <Increment counts={count}/>
+        <Increment counts={count} setCounts={setCount}/>
 
 
 
