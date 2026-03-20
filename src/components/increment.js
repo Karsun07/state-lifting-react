@@ -2,7 +2,7 @@ function Increment(props) {
   return (
     <div>
      
-      <button onClick={() => props.setCounts(props.counts + 1)}>Increment2</button>
+      <button onClick={() => props.setCounts(props.counts + 1)}>Increment</button>
     </div>
   );
 }
